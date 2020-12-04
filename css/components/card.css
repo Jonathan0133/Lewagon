@@ -1,0 +1,29 @@
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    margin: 15px;
+    flex-basis: 231px;
+    flex-grow: 1;
+}
+
+.card h2{
+    font-size: 23px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.card img{
+    width: 120px;
+    border-radius: 6px;
+}
